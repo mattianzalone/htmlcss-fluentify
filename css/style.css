@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #808080;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.bg-blue {
+    background-color: #0c325a;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+/* INIZIO HEADER */
+
+#logo, nav {
+    float: left;
+}
+
+#logo img {
+    margin-right: 50px;
+}
+
+.cta-container {
+    float: right;
+}
+
+.header-top {
+    height: 70px;
+    padding: 10px 0;
+    line-height: 50px;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    padding: 0 5px;
+}
+
+.header-top a {
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.btn-small {
+    padding: 5px 10px;
+}
+
+.btn-big {
+    padding: 13px 20px;
+}
+
+.btn-blue {
+    padding: 5px 20px;
+    background-color: #0c325a;
+    border: 1px solid #b8e2f2;
+    margin: 0 10px;
+}
+
+.btn-green {
+    background-color: #7cbb02;
+    border: 1px solid #7cbb02;
+}
+
+/*
+header {
+    /* OPZIONE 1 * /
+    background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    background-size: 800px 300px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+*/
+
+header {
+    overflow-x: hidden;
+}
+
+.banner {
+    height: 400px;
+    position: relative;
+}
+
+.jumbotron {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.banner img {
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(20%);
+}
+
+/* FINE HEADER */
+
+.bg-gray {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.bg-gray h2 {
+    margin-bottom: 10px;
+}
+
+/* CARDS */
+
+.cards {
+    padding: 40px 0;
+}
+
+.card {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+
+.card img {
+    height: 120px;
+}
+
+.card h3 {
+    color: #7cbb02;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.card hr {
+    width: 70px;
+    margin: 30px auto;
+}
+
+
+
+/* FINE CARDS */
